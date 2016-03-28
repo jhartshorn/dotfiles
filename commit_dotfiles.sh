@@ -1,5 +1,5 @@
 #!/bin/bash
-
+git checkout mac
 #Copy dotfiles to ~/.dotfiles
 cp ~/.config/awesome/rc.lua ~/.dotfiles 
 cp ~/.xsessionrc ~/.dotfiles 
