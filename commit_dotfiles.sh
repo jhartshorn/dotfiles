@@ -15,4 +15,4 @@ sed -i '/wpa-psk/ c\\twpa-psk XXXXXXXX' ~/.dotfiles/interfaces
 #Add, commit and push to github
 git add -A  
 git commit
-git push origin master
+git push origin mac 
