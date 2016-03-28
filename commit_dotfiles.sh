@@ -13,7 +13,6 @@ cp /etc/network/interfaces ~/.dotfiles
 sed -i '/wpa-psk/ c\\twpa-psk XXXXXXXX' ~/.dotfiles/interfaces
 
 #Add, commit and push to github
-git add .*  
-git add *  
+git add -A  
 git commit
 git push origin master
