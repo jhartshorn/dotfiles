@@ -1,1 +1,4 @@
 xbindkeys &
+rfkill block bluetooth &
+setxkbmap -layout gb -variant mac
+
