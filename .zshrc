@@ -84,4 +84,4 @@ DEFAULT_USER="james"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias wifi_fix="sudo ifdown wlan0 && sudo ifup wlan0"
+alias wifi_fix="sudo ifdown wlan0 && sudo ifup wlan0 && sudo iwconfig wlan0 rate 54M fixed"

@@ -12,6 +12,5 @@ allow-hotplug wlan0
 iface wlan0 inet dhcp
 	wpa-ssid Apple5Ghz
 	wpa-psk XXXXXXXX
-
 #Make sure wpa key is obuscated before backing up:
 #sed -i '/TEXTTOREPLACE/ c\\tTEXTTOREPLACE XXXXXXXX' interfaces
